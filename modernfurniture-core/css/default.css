@@ -150,10 +150,16 @@ h1 {
     line-height: 1;
     margin-left: 5px;
 }
+.global-footer{
+	text-align:right;
+}
 @media (max-width: 1023px) {
   .navbar-header {
       float: none;
   }
+  .global-footer{
+		text-align:center;
+	}
   .navbar-left,.navbar-right {
       float: none !important;
   }
@@ -919,5 +925,13 @@ iframe {
 @media (max-width: 767px) {
     .media-grid .media-list-item {
         width: 33.33%;
+    }
+}
+#home{
+	padding-bottom:0;
+}
+@media(min-width: 768px) {
+    .revealOnScroll {
+        opacity:0;
     }
 }
